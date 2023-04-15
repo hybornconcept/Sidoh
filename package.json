@@ -4,12 +4,12 @@
   "description": "Simple file structure for Tailwind projects",
   "main": "index.js",
   "scripts": {
-    "watch": "tailwindcss -i ./input.css -o ./css/style.css --watch",
-    "build": "tailwindcss -i ./input.css -o ./css/style.css"
+    "watch": "tailwindcss -i src/input.css -o ./dist/style.css --watch",
+    "build": "tailwindcss -i src/input.css -o ./dist/style.css"
   },
   "author": "Brad Traversy",
   "license": "MIT",
   "devDependencies": {
-    "tailwindcss": "^3.0.24"
+    "tailwindcss": "^3.3.1"
   }
 }
